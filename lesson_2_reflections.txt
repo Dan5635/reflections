@@ -20,6 +20,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	- The result of merging two branches together is having 1 master branch hopefully. You would have the changes that were made in the branch and all the changes in the master that were added since the branch combined into one working project. From here the commit would have a parent to the head of the (most recent branch commit and master commit). You would also then beable to remove the label for the branch and just have the master again. 
+	- Representing this in the diagram makes it easier to see where each commit came from and also when in chronological order. It also is helpful to see where the branch was created from.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
