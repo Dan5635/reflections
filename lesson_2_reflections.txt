@@ -7,6 +7,7 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	- When you have finished making the changes you wish to make you could then run a git diff command to compare the changes from your working directory to the staging area which contains a copy of the most recent repository. Once you verify that these are the changes you wish to make you can git add the files you wish to commit with the changes. Next you could then run git diff --staged to compare your staging area (which would now hold the changed files) to the most recent commit in the repository. As long as these are the changes you want to make you could then run git commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
