@@ -16,6 +16,7 @@ organized? How would branches help?
 	- Working on a team project where different groups are working on different features.
 
 How do the diagrams help you visualize the branch structure?
+	- The diagrams helped me visualize the branch stucture so I can see exactly where each branch is comming from. From there I am able to see what commits from the master branch have been added since the current branch had been created. It helps show what branches have what features and where they stand in chronological order from their creation.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
