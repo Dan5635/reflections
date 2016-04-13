@@ -11,6 +11,9 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	- If you had a website that you were working on implementing a new payment authorization service you would want to create a branch for this to test it thouroughly before moving it to production. Creating a branch would allow you to do this without changing the master branch until you are positive it works.
+	- Another example would be redesigning the front end of a website, while still maintaining the current one
+	- Working on a team project where different groups are working on different features.
 
 How do the diagrams help you visualize the branch structure?
 
