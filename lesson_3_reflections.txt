@@ -15,3 +15,6 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	- Without using Git or GitHub I would swtich to a different version control system. I have used SVN in the past, however we never had SVN setup where it was accessible anywhere, it was only accessible form within the office. This made it much harder to collaborate and work from home. 
 	Also without having Git, or another VCS collaboration would be much harder. You would have to communicate through e-mails, and then keep track of code changes all together and make sure everyone can stay up to date.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	- You may want to make changes in a branch if you are working on a feature/part of a project that might take some time and would need to be tested and completed before being merged into the master copy everyone else would see. This approach will take longer but would prevent the master branch from breaking if you made sure everything on your brance worked before pushing.
